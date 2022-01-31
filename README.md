@@ -2,6 +2,17 @@
 # Cryptocurrency VIP Trader
 Cryptocurrency "Volume In Price" Trader is an automated trading algorithm that works on three levels.  First it will scan the Cryptocurrency market searching for volatility, second it will determine an entry and finally it will then manage the trade.
 
+## Libraries Used
+from binance import Client<br/>
+import websockets<br/>
+import json<br/>
+import pandas as pd<br/>
+import asyncio<br/>
+import time<br/>
+import threading<br/>
+from colorama import Fore, Back, Style
+
+
 ## 1. Crypto Scanner
 We first wanted to build a crypto scanner that would scan the Binance Exchange searching for an early indication of a potential move up.  For this to happen we needed volatility! In its simplest form we looked for an increase in upside momentum based on volume and price multiples.
 ### Variables
