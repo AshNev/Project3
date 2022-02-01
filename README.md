@@ -41,3 +41,10 @@ To gain the maximum capital we have no target but rely on the multiple entries a
 Using a trailing stop exit the first close below the SMA all open trades for that particular Crypto would be closed.
 ### Variables
 - Simple Moving Average (SMA)
+
+
+## Contributers 
+Luke Macumber<br/>
+Chapman Mong<br/>
+Ashley Neville<br/>
+Haong VT
