@@ -1,4 +1,9 @@
 # Project3
+## Contributers 
+Luke Macumber<br/>
+Chapman Mong<br/>
+Ashley Neville<br/>
+Haong Van
 # Cryptocurrency VIP Trader
 Cryptocurrency "Volume In Price" Trader is an automated trading algorithm that works on three levels.  First it will scan the Cryptocurrency market searching for volatility, second it will determine an entry and finally it will then manage the trade.
 
@@ -42,9 +47,17 @@ Using a trailing stop exit the first close below the SMA all open trades for tha
 ### Variables
 - Simple Moving Average (SMA)
 
+## 4. Back Testing
+We optimised strategy to find best parameters.
+![](./images/optimise_vol_sma.png) <br/>
+Using above parameters these were some results we were able to achieve.
+![](./images/backtest_results.png) <br/>
 
-## Contributers 
-Luke Macumber<br/>
-Chapman Mong<br/>
-Ashley Neville<br/>
-Haong VT
+Portfolio Basket of Cryptos tested.
+![](./images/backtest_results_chart.png) <br/>
+
+## 5. UI Coding & Dashboard
+![](./images/UI_dashboard.png) <br/>
+![](./images/UI_code.png) <br/>
+
+
