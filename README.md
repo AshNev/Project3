@@ -47,17 +47,28 @@ Using a trailing stop exit the first close below the SMA all open trades for tha
 ### Variables
 - Simple Moving Average (SMA)
 
-## 4. Back Testing
+## 4. Testing Rules
+![](./project3_rules.png) <br/>
+Entry:	Close>SMA(12)<br/>
+		V>Prev V*1.1<br/>
+		Close>Prev Close<br/>
+Entries initiated 1, 2 & 3 (multi-trades)<br/>
+Trade Management:<br/>
+		Initial Stop at SMA(12)<br/>
+		Trailing Stop at SMA(12)<br/>
+Exit: 	Close<SMA(12)  -  Exit all trades.
+
+## 5. Back Testing
 We optimised strategy to find best parameters.
 ![](./images/optimise_vol_sma.png) <br/>
 Using above parameters these were some results we were able to achieve.
 ![](./images/backtest_results.png) <br/>
 
-Portfolio Basket of Cryptos tested.
+Portfolio Basket of Cryptos tested.<br/>
 ![](./images/backtest_results_chart.png) <br/>
 
-## 5. UI Coding & Dashboard
+## 6. UI Coding & Dashboard
 ![](./images/UI_dashboard.png) <br/>
 ![](./images/UI_code.png) <br/>
-<br/>
+
 
