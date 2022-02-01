@@ -59,5 +59,5 @@ Portfolio Basket of Cryptos tested.
 ## 5. UI Coding & Dashboard
 ![](./images/UI_dashboard.png) <br/>
 ![](./images/UI_code.png) <br/>
-
+<br/>
 
