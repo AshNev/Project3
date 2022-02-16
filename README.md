@@ -3,7 +3,7 @@
 Luke Macumber<br/>
 Chapman Mong<br/>
 Ashley Neville<br/>
-Haong Van
+Hao Van
 # Cryptocurrency VIP Trader
 Cryptocurrency "Volume In Price" Trader is an automated trading algorithm that works on three levels.  First it will scan the Cryptocurrency market searching for volatility, second it will determine an entry and finally it will then manage the trade.
 
